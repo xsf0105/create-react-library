@@ -3,16 +3,21 @@ import "./MyButton.css";
 
 var MyButton = function MyButton(_ref) {
   var text = _ref.text,
-      onClick = _ref.onClick;
+      type = _ref.type,
+      _onClick = _ref.onClick;
   return React.createElement(
     "button",
-    { onClick: onClick },
-    text,
-    " ",
+    {
+      className: type === "primary" ? "btn-primary btn" : "btn",
+      onClick: function onClick(e) {
+        return _onClick && _onClick("hello");
+      }
+    },
     React.createElement(
-      "b",
+      "span",
       null,
-      "npm"
+      text,
+      " NPM"
     )
   );
 };
