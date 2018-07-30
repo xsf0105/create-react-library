@@ -1,5 +1,5 @@
 # react-npm-publish
-This project is based on create-react-app, in this project you can create your own UI library, and publish it to [NPM](https://www.npmjs.com/).
+This project is based on [create-react-app](https://github.com/facebook/create-react-app), in this project you can create your own UI library, and publish it to [NPM](https://www.npmjs.com/).
 
 ### Getting Started
 Install dependencies
