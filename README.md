@@ -1,15 +1,39 @@
-# contacts-picker
+# react-npm-publish
+This project is based on create-react-app, in this project you can create your own UI library, and publish it to [NPM](https://www.npmjs.com/).
 
-###  Usage
-
+### Getting Started
+Install dependencies
 ```
-<ContactsPicker
-        visible={selectorVisible}   模态框显示隐藏
-        selectedStaffs={selectedStaffs} 选中的人
-        selectedDept={selectedDept} 选中的部门
-        actionsType={1} // 选人/选部门 类型
-        handleCancel={() =>
-            this.setState({ selectorVisible: false })
-        }
-        handleOk={this.handleSelectorOk} />     // 返回选中的人或部门的 item 数组
+yarn install
+or 
+npm install
+```
+
+Start development server
+```
+yarn start
+or 
+npm start
+```
+Then you can run this project in your browser http://localhost:3000
+
+### Build library
+```
+yarn run build
+or 
+npm run build
+```
+
+### Publish library to NPM
+```
+npm publish
+```
+
+### Usage
+```
+<MyButton
+    type={"default"}
+    text={"this is a examle component"}
+    onClick={()=>{console.log("clicked")}}
+/>
 ```
