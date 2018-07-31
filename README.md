@@ -29,8 +29,14 @@ npm run build
 npm publish
 ```
 
-### Usage
+### Example Usage
 ```
+npm install my-button
+```
+
+```
+import { MyButton } from "my-button";
+
 <MyButton
     type={"default"}
     text={"this is a examle component"}
