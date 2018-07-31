@@ -19,17 +19,12 @@ export class App extends React.Component {
   render() {
     return (
       <div>
+        <p>This is a example component:</p>
         <MyButton
           type={this.state.type}
           text={this.state.text}
           onClick={this.handleClick}
         />
-        
-        <div className="markdown">
-          <code className="code">npm run build</code>
-          <br/>
-          <code className="code">npm publish</code>
-        </div>
       </div>
     );
   }

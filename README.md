@@ -1,6 +1,8 @@
 # react-npm-publish
 This project is based on [create-react-app](https://github.com/facebook/create-react-app), in this project you can create your own UI library, and publish it to [NPM](https://www.npmjs.com/).
 
+[中文版本](./README-ZH.md)
+
 ### Getting Started
 Install dependencies
 ```
@@ -31,15 +33,15 @@ npm publish
 
 ### Example Usage
 ```
-npm install my-button
+npm install react-npm-publish
 ```
 
 ```
-import { MyButton } from "my-button";
+import { MyButton } from "react-npm-publish";
 
 <MyButton
-    type={"default"}
-    text={"this is a examle component"}
+    type="default"
+    text="this is a examle component"
     onClick={()=>{console.log("clicked")}}
 />
 ```
