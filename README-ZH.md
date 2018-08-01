@@ -31,7 +31,7 @@ npm publish
 
 ### 他人使用
 ```
-npm install react-npm-publish
+npm install react-npm-publish（自定义您的项目名）
 ```
 
 ```
