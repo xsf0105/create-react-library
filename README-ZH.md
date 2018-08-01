@@ -1,7 +1,7 @@
 # react-npm-publish
 该项目基于[create-react-app](https://github.com/facebook/create-react-app)，您可以使用该项目去构建属于您自己的ui组件库，并发送到 `npm` 平台。
 
-### 开始
+## 开始
 安装依赖
 ```
 yarn install
@@ -17,19 +17,19 @@ npm start
 ```
 浏览器将弹出并显示该项目： http://localhost:3000
 
-### 项目构建
+## 项目构建
 ```
 yarn run build
 or 
 npm run build
 ```
 
-### 发布到npm平台[(有关 npm 发布)](#有关npm发布)
+## 发布到npm平台[(有关 npm 发布)](#有关npm发布)
 ```
 npm publish
 ```
 
-### 他人使用
+## 他人使用
 ```
 npm install react-npm-publish（自定义您的项目名）
 ```
@@ -44,7 +44,7 @@ import { MyButton } from "react-npm-publish";
 />
 ```
 
-### 有关npm发布
+## 有关npm发布
 1、在[npm](https://www.npmjs.com/)注册账号，并邮箱验证。然后输入：
 ```
 npm adduser
