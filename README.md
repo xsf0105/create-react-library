@@ -3,7 +3,7 @@ This project is based on [create-react-app](https://github.com/facebook/create-r
 
 [中文版本](./README-ZH.md)
 
-### Getting Started
+## Getting Started
 Install dependencies
 ```
 yarn install
@@ -19,7 +19,7 @@ npm start
 ```
 Then you can run this project in your browser http://localhost:3000
 
-### Build library
+## Build library
 ```
 yarn run build
 or 
@@ -31,7 +31,7 @@ npm run build
 npm publish
 ```
 
-### Example Usage
+## Example Usage
 ```
 npm install react-npm-publish
 ```
