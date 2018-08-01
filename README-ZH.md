@@ -58,3 +58,8 @@ npm publish
 
 
 ps: 有其他问题可以提 issue 
+
+
+## License
+
+MIT
