@@ -45,3 +45,8 @@ import { MyButton } from "react-npm-publish";
     onClick={()=>{console.log("clicked")}}
 />
 ```
+
+
+## License
+
+MIT
