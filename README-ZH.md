@@ -1,4 +1,4 @@
-# react-npm-publish
+# react-to-npm
 该项目基于[create-react-app](https://github.com/facebook/create-react-app)，您可以使用该项目去构建属于您自己的ui组件库，并发送到 `npm` 平台。
 
 ## 开始
@@ -31,11 +31,11 @@ npm publish
 
 ## 他人使用
 ```
-npm install react-npm-publish（自定义您的项目名）
+npm install react-to-npm（自定义您的项目名）
 ```
 
 ```
-import { MyButton } from "react-npm-publish";
+import { MyButton } from "react-to-npm";
 
 <MyButton
     type="default"
