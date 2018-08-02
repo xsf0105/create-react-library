@@ -1,4 +1,4 @@
-# react-npm-publish
+# react-to-npm
 This project is based on [create-react-app](https://github.com/facebook/create-react-app), in this project you can create your own UI library, and publish it to [NPM](https://www.npmjs.com/).
 
 [中文版本](./README-ZH.md)
@@ -33,11 +33,11 @@ npm publish
 
 ## Example Usage
 ```
-npm install react-npm-publish
+npm install react-to-npm
 ```
 
 ```
-import { MyButton } from "react-npm-publish";
+import { MyButton } from "react-to-npm";
 
 <MyButton
     type="default"
